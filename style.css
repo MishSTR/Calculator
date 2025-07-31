@@ -1,0 +1,22 @@
+html, body {
+    height: 100%; /* Важно, чтобы body занимал всю высоту */
+    margin: 0;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#firstVar, #secondVar, #equals, #total {
+    text-align: center;
+}
+#expression {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+
+
