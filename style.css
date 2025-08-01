@@ -9,13 +9,19 @@ body {
     justify-content: center;
 }
 
-#firstVar, #secondVar, #equals, #total {
+#firstVar, #secondVar, #total {
     text-align: center;
 }
 #expression {
     display: flex;
     justify-content: center;
     gap: 10px;
+}
+
+#equals {
+    background-color: transparent; 
+    border: 1px solid black;   
+    cursor: pointer;
 }
 
 
